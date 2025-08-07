@@ -61,7 +61,7 @@ The model uses the [Pima Indians Diabetes Dataset](https://www.kaggle.com/datase
 
 | File Name              | Description                                      |
 |------------------------|--------------------------------------------------|
-| `week4 project.ipynb`  | Main notebook for training and evaluating models |
+| `main.ipynb`  | Main notebook for training and evaluating models |
 | `user interface.ipynb` | CLI-based interface for predicting new input     |
 | `Diabetes predictor model.pkl` | Saved trained Random Forest model     |
 | `Scaler.pkl`           | Saved MinMaxScaler for input normalization       |
