@@ -90,11 +90,11 @@ The model uses the [Pima Indians Diabetes Dataset](https://www.kaggle.com/datase
    input_scaled = scaler.transform([data])
    prediction = model.predict(input_scaled)
 
-   print("\n🔍 Prediction Result:")
+   print("\n Prediction Result:")
    if prediction[0] == 1:
-       print("⚠️ The person is likely to be Diabetic.")
+       print("The person Diabetic.")
    else:
-       print("✅ The person is NOT Diabetic.")
+       print("The person is NOT Diabetic.")
    ```
 
 ---
@@ -112,8 +112,8 @@ BMI: 25.3
 DiabetesPedigreeFunction: 0.5
 Age: 29
 
-🔍 Prediction Result:
-✅ The person is NOT Diabetic.
+Prediction Result:
+The person is NOT Diabetic.
 ```
 
 ---
@@ -127,8 +127,7 @@ Random Forest performed best with high accuracy, precision, recall, and F1-score
 ## 🤖 Author
 
 **Saif Ullah Umar**  
-Aspiring Machine Learning Engineer  
-Currently following an 8-week ML roadmap
+Aspiring Machine Learning Engineer
 
 ---
 
@@ -137,5 +136,9 @@ Currently following an 8-week ML roadmap
 - Convert CLI to GUI using Tkinter or PyQt
 - Add model explainability (e.g., SHAP)
 - Deploy as a web app using Flask or Streamlit
-
+- Improve the model's accuracy
 ---
+
+## 🚧 Note
+
+- This is a baseline model using SMOTE and basic classifiers. Metrics are moderate and will be improved in later weeks using advanced techniques.
